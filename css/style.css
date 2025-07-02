@@ -2,3 +2,7 @@
 --Primary, #020202;
 --Secondary, ##0ea5e9;
 }
+
+body {
+  background-color: var(--Primary);
+}
