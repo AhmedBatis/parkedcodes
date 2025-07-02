@@ -1,6 +1,7 @@
 :root {
   --primary-color: #020202;
   --secondary-color: #0ea5e9;
+  --background-url: no-repeat url("/img/faded-office.png");
 }
 
 body {
