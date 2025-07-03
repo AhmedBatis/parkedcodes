@@ -15,7 +15,7 @@ body {
 }
 
 .main-div {
-  margin: 50vh auto auto 20px;
+  margin: auto auto auto 20px;
   width: 50%;
   border: 3px solid red;
 }
