@@ -34,3 +34,7 @@ p {
 span {
     border-bottom: 10px solid var(--secondary-color);
 }
+
+button {
+  margin-top: 50px;
+}
