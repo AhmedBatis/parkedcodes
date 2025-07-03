@@ -1,12 +1,34 @@
-:root {
-  --primary-color: #020202;
-  --secondary-color: #0ea5e9;
-  --background: no-repeat center/cover url("/img/faded-office.png");
+/* Global reset and visual debug */
+* {
+  box-sizing: border-box;
 }
 
-.main-div {
-  background: var(--background);
-  background-size: cover;
-  height: 400px; /* or any visible height */
-  width: 100%;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Parent container */
+.parent {
+  background-color: #eee;
+  padding: 20px;
+  margin: 40px;
+  height: 200px;
+  border: 2px dashed black;
+
+  /* Change this per case */
+  position: relative;
+}
+
+/* The red bordered box */
+.box {
+  width: 150px;
+  height: 100px;
+  background-color: lightblue;
+  border: 3px solid red;
+
+  /* Change these per case */
+  position: static;
+  top: 20px;
+  left: 30px;
 }
