@@ -27,5 +27,10 @@ h1 {
 
 p {
   font-size: 32px;
+  color: var(--primary-color);
   /*color: red;*/
+}
+
+p span {
+    color: red;
 }
