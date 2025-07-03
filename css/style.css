@@ -1,40 +1,96 @@
-/* Global reset and visual debug */
+/* Basic Setup */
 * {
   box-sizing: border-box;
 }
-
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 40px;
+}
+h1, h2 {
+  margin-top: 60px;
 }
 
-/* Parent container */
+/* Visual Sections */
+.case {
+  margin-bottom: 80px;
+}
 .parent {
   background-color: #eee;
   padding: 20px;
-  margin: 40px;
+  margin-top: 20px;
   height: 200px;
-  border: 2px dashed black;
-
-  /* Change this per case */
+  border: 2px dashed #888;
   position: relative;
 }
 
-/* The red bordered box */
+/* Box Default Styles */
 .box {
   width: 150px;
   height: 100px;
   background-color: lightblue;
   border: 3px solid red;
-
-  /* Change these per case */
-
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.box {
+/* ───────── Position Cases ───────── */
+
+/* 1. static (default) */
+.static {
+  position: static;
+  left: 100px; /* won't apply */
+  top: 30px;   /* won't apply */
+}
+
+/* 2. relative */
+.relative {
   position: relative;
-  left: 100px;
-  top: 50px;
-  border: 3px solid red;
-  background-color: rgba(255, 0, 0, 0.1);
+  left: 50px;
+  top: 20px;
+}
+
+/* 3. absolute */
+.relative-parent {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+
+/* 4. fixed */
+.fixed {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: lightcoral;
+  z-index: 999;
+}
+
+/* 5. sticky */
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: lightgreen;
+}
+
+/* Extra scrolling for sticky demo */
+.sticky-wrapper {
+  height: 800px;
+}
+.spacer {
+  height: 600px;
+  background: repeating-linear-gradient(
+    45deg,
+    #f9f9f9,
+    #f9f9f9 20px,
+    #e0e0e0 20px,
+    #e0e0e0 40px
+  );
+  padding: 20px;
 }
