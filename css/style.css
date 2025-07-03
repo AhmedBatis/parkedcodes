@@ -17,7 +17,7 @@ body {
 .main-div {
   margin: 200px auto 10px auto;
   width: 50%;
-  border: red 3px sloid;
+  border: 3px sloid red;
 }
 
 h1 {
