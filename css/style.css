@@ -9,8 +9,11 @@
   padding:0;
 }
 
+body {
+    background: var(--background);
+}
+
 .main-div {
-  background: var(--background);
   height: 100vh;
 }
 
