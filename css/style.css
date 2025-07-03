@@ -11,6 +11,7 @@
 
 body {
     background: var(--background);
+    margin: 0 150px 0 150px;
 }
 
 .main-div {
