@@ -32,5 +32,5 @@ p {
 }
 
 p span {
-    color: red;
+    border-buttom: 10px solid red;
 }
