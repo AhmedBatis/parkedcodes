@@ -31,6 +31,6 @@ p {
   /*color: red;*/
 }
 
-p span {
-    border-buttom: 10px solid red;
+span {
+    border-bottom: 1rem solid;
 }
