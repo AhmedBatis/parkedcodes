@@ -11,4 +11,5 @@ html, body {
 
 .main-div {
   background: var(--background);
+  height: 100vh;
 }
