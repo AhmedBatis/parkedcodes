@@ -11,5 +11,5 @@ body {
 .main-div {
   background: var(--background);
   width: 100vh;
-  height: 100vh;
+  height: 100%;
 }
