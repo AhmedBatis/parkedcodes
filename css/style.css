@@ -3,10 +3,3 @@
   --secondary-color: #0ea5e9;
   --background: no-repeat center/cover url("/img/faded-office.png");
 }
-
-.main-div {
-  background: var(--background);
-  background-size: cover;
-  height: 400px; /* or any visible height */
-  width: 100%;
-}
