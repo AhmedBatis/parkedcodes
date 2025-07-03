@@ -4,6 +4,9 @@
   --background: no-repeat center/cover url("/img/faded-office.png");
 }
 
+body {
+  margin:0;
+}
 
 .main-div {
   background: var(--background);
