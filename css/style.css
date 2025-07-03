@@ -41,4 +41,5 @@ button {
   background: var(--secondary-color);
   color: white;
   font-size: 40px;
+  border: none;
 }
