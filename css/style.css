@@ -12,6 +12,7 @@
 body {
     background: var(--background);
     background-size: cover;
+    heigh: 100vh;
 }
 
 .main-div {
