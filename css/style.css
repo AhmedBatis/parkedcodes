@@ -1,9 +1,9 @@
 :root {
   --primary-color: #020202;
   --secondary-color: #0ea5e9;
-  --background-image: url("/img/faded-office.png");
+  --background: no-repeat center/cover url("/img/faded-office.png");
 }
 
 .main-div {
-  background-image: var(--background-image);
+  background: var(--background);
 }
