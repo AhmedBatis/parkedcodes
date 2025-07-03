@@ -37,5 +37,6 @@ span {
 
 button {
   margin-top: 50px;
-  padding: 10px 20px;
+  padding: 20px 40px;
+  background: var(--secondary-color);
 }
