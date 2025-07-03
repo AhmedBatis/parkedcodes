@@ -10,6 +10,6 @@ body {
 
 .main-div {
   background: var(--background);
-  width: 80%;
+  width: 100vh;
   height: 100vh;
 }
