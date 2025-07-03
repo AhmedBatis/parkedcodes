@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Web Agency Hero</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <div clas="main-div">
-        <div class="h-div"><h1>Dave's Devs & Designers</h1></div>
-        <div class="p-div"><p>We're a group devs & designers who will help your dream <span>come true.</span></p></div>
-        <button class="btn-clss">Let's chat</button>
-    </div>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .parent {
+      background-color: #eee;
+      padding: 20px;
+      margin: 40px;
+      height: 200px;
+      position: relative; /* Will be changed per case */
+    }
+
+    .box {
+      width: 150px;
+      height: 100px;
+      border: 3px solid red;
+      background-color: lightblue;
+      position: static; /* Will be changed per case */
+      top: 20px;
+      left: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="box">.box</div>
+  </div>
+</body>
 </html>
