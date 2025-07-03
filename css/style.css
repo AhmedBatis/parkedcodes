@@ -32,5 +32,5 @@ p {
 }
 
 span {
-    border-bottom: 1rem solid var(--secondary-color);
+    border-bottom: 10px solid var(--secondary-color);
 }
