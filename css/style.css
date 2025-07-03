@@ -39,4 +39,6 @@ button {
   margin-top: 50px;
   padding: 20px 40px;
   background: var(--secondary-color);
+  color: white;
+  font-size: 40px;
 }
