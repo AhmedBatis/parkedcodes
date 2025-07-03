@@ -6,4 +6,7 @@
 
 .main-div {
   background: var(--background);
+  background-size: cover;
+  height: 400px; /* or any visible height */
+  width: 100%;
 }
