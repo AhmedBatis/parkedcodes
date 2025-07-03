@@ -13,3 +13,7 @@ html, body {
   background: var(--background);
   height: 100vh;
 }
+
+.inside-div {
+  margin-top: 250px;
+}
