@@ -1,2 +1,1 @@
-# parkedcodes
-git.parekedcodes.com
+Solo Project (PRO) - Web Agency Hero
