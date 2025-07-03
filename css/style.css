@@ -4,6 +4,6 @@
   --background-url: no-repeat url("/img/faded-office.png");
 }
 
-body {
-  background: var(--background-url);
+.main-div {
+  background: url(var(--background-url));
 }
