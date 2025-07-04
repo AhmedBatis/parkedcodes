@@ -3,6 +3,7 @@
 .div-parent {
   position: relative;
   border: 3px dotted cyan;
+  width: 100px;
 }
 
 /* Child div: div-child */
