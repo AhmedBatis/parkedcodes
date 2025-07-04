@@ -9,7 +9,7 @@
 /* Child div: div-child */
 
 .div-child {
-  position: relative;
+  /*position: relative;*/
   border: 3px dotted red;
   width: 250px;
   height: 350px;
