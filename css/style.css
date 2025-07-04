@@ -8,4 +8,6 @@
 /* play with the position property now */
 .element-div {
   position: static;
+  top: 100px;
+  left: 100px;
 }
