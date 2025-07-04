@@ -10,4 +10,6 @@
 .div-child {
   position: relative;
   border: 3px dotted red;
+  width: 250px;
+  height: 350px;
 }
