@@ -1,7 +1,6 @@
 /* Parent div: div-parent */
 
 .div-parent {
-  position: relative;
   border: 10px dotted green;
   width: 250px;
   height: 600px;
