@@ -1,3 +1,7 @@
 /* Parent div: div-parent */
 
+.div-parent {
+  position: relative;
+}
+
 /* Child div: div-child */
