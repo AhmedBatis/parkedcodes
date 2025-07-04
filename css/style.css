@@ -4,6 +4,7 @@
   position: relative;
   border: 3px dotted cyan;
   width: 100px;
+  height: 600px;
 }
 
 /* Child div: div-child */
