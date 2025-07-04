@@ -1,14 +1,3 @@
-.element-div {
-  color: white;
-  background-color: #212121;
-  height: 150px;
-  width:150px;
-  padding: 40px 20px;
-}
+/* Parent div: div-parent */
 
-/* play with the position property now */
-.element-div {
-  position: relative;
-  top: 100px;
-  left: 500px;
-}
+/* Child div: div-child */
