@@ -2,8 +2,8 @@
 
 .div-parent {
   position: relative;
-  border: 3px dotted green;
-  width: 100px;
+  border: 10px dotted green;
+  width: 250px;
   height: 600px;
   margin-left: 100px;
   margin-top: 50px;
@@ -13,7 +13,7 @@
 
 .div-child {
   /*position: relative;*/
-  border: 3px dotted red;
+  border: 10px dotted red;
   width: 250px;
   height: 350px;
 }
