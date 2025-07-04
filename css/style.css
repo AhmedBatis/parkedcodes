@@ -5,6 +5,7 @@
   border: 3px dotted green;
   width: 100px;
   height: 600px;
+  margin-left: 100px;
 }
 
 /* Child div: div-child */
